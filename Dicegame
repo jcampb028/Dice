@@ -1,0 +1,32 @@
+import random
+import time
+
+roll_again = "yess"
+
+while roll_again == "yess" or roll_again == "Y":
+    print("\nRolling the dice...")
+    time.sleep(3)
+
+    dice1 = random.randint(1, 6)
+    dice2 = random.randint(1, 6)
+
+    print ("lets check the values!!:")
+    print("Dice 1 = ", dice1,  "\nDice 2 =", dice2)
+
+    if dice1 == dice2:
+        print (" I think You rolled a double!")
+    else:
+        print("Keep going!")
+
+    roll_again = input ("\n Do you want to roll to dice again Dr. Chen? (Y/N) ")
+
+
+ounds won: " + str(player2wins))
+
+def dice_roll():
+        diceRoll = random.randint(1,6)
+        diceRoll = pygame.init(1,6)
+
+        return diceRoll
+
+main()
